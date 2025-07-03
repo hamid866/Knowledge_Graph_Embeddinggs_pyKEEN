@@ -23,7 +23,7 @@ Embedding Model Training
 
 Five different models are trained using PyKEEN:
 
-ComplEx
+Dismult
 
 TransE
 
