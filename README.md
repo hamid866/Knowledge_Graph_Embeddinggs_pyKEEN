@@ -80,4 +80,4 @@ All dependencies are listed in requirements.txt.
 Notes
 You can adjust the number of epochs, embedding dimensions, and model types in the script as needed.
 
-The project is suitable for anyone working on biomedical knowledge graphs, entity similarity, or downstream ML/NLP tasks using HP and GO ontologies.
+The project is suitable for anyone working on biomedical knowledge graphs, entity similarity, tasks using HP and GO ontologies.
