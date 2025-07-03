@@ -52,7 +52,11 @@ For each model, two files are generated:
 These JSON files can be used directly for similarity calculation, downstream ML models, or as a service in web APIs.
 
 How to Use
-Make sure all dependencies are installed with pip install -r requirements.txt.
+Make sure all dependencies are installed with 
+
+cd ~/my_project_directory
+source myenv/bin/activate
+pip install -r requirements.txt.
 
 Place the ontology files (go-basic.owl and hp.owl) in the project directory (or update the paths in the script).
 
@@ -65,7 +69,7 @@ python pykeen_embedding_script.py
 After training, embeddings for each model will be available in the embeddings directory.
 
 Dependencies
-Python 3.8+
+Python 3.9
 
 PyKEEN
 
@@ -81,3 +85,6 @@ Notes
 You can adjust the number of epochs, embedding dimensions, and model types in the script as needed.
 
 The project is suitable for anyone working on biomedical knowledge graphs, entity similarity, tasks using HP and GO ontologies.
+
+
+
